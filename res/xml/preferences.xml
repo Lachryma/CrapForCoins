@@ -1,0 +1,43 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="Salary and Currency">
+       	
+       	<ListPreference
+       	    	android:key="frequency_preference"
+       	    	android:title="Payment Frequency"
+       	    	android:summary="Is your pay by hour, month or year?"
+       	    	android:entries="@array/frequencyDisplayWord"
+       	    	android:entryValues="@array/frequencyReturnValue"
+       	    	android:dialogTitle="Select Your Salary Frequency" />
+
+        <EditTextPreference
+                android:key="earning_preference"
+                android:inputType="numberDecimal"
+                android:title="Earnings"
+                android:summary="However much you make per hour/month/year"
+                android:dialogTitle="Input Your Earnings" />
+        
+        <EditTextPreference
+            	android:key="hours_preference"
+            	android:inputType="numberDecimal"
+            	android:title="Hours per Week"
+            	android:summary="How many hours you work in a week"
+            	android:dialogTitle="Input your hours per week" />
+
+        <ListPreference
+                android:key="currency_preference"
+                android:title="Currency Type"
+                android:entries="@array/listDisplayWord"
+                android:entryValues="@array/listReturnValue"
+                android:dialogTitle="Select Your Currency" />
+        
+        <CheckBoxPreference 
+            	android:key="notification_preference"
+            	android:title="Show Notifications"
+            	android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

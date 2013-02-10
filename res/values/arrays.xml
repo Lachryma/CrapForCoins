@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listDisplayWord">
+        <item>USD ($)</item>
+        <item>Euro (€)</item>
+        <item>Yen (¥)</item>
+        <item>Pound (£)</item>    
+	</string-array>
+	<string-array name="listReturnValue">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	</string-array>
+	<string-array name="frequencyDisplayWord">
+	    <item>Hourly</item>
+	    <item>Monthly</item>
+	    <item>Yearly</item>
+	</string-array>
+	<string-array name="frequencyReturnValue">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	</string-array>
+</resources>
